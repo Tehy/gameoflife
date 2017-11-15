@@ -23,7 +23,7 @@ namespace ConsoleApp1
             //everything to form
 
 
-            int gridSize = 5;
+            int gridSize = 20;
 
             int livingCells = 0, l = 0, m = 0, n = 0, i, j;
 
@@ -198,7 +198,9 @@ namespace ConsoleApp1
 
 
                 //wait
-                System.Threading.Thread.Sleep(100);
+                //System.Threading.Thread.Sleep(100);
+
+
                 //Console.ReadLine();
                 //TODO add if changesArray == grid {end round} //stalemate 
                 //* END 
